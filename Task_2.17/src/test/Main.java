@@ -1,11 +1,19 @@
 package test;
 import example.MyMath;
 import example.Person;
+import inheritance.Cat;
+import inheritance.Lion;
+
 /**
  * @author Sorokin Aleksei on $DATE
  **/
 public class Main {
     public static void main(String... args) {
+        Cat cat = new Cat();
+        Lion lion = new Lion();
+        System.out.println(cat.canEatPerson);
+        System.out.println(lion.canEatPerson);
+
         /*
         example.Test test = new example.Test();
         System.out.println(test.square(5));
@@ -33,7 +41,7 @@ public class Main {
         System.out.println(MyMath.length(10));
         System.out.println(MyMath.area(10));
         System.out.println(MyMath.length(10));
-        */
         System.out.println(MyMath.sum(1,2,3));
+        */
     }
 }
