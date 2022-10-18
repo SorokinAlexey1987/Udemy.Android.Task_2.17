@@ -9,9 +9,17 @@ public abstract class Shape {
         this.b = b;
     }
 
+    public final double getA() {
+        return a;
+    }
+
+    public final double getB() {
+        return b;
+    }
+
     public abstract double getPerimetr();
 
-    public void showPerimetr() {
+    public final void showPerimetr() {
         System.out.println(getPerimetr());
     }
 }
