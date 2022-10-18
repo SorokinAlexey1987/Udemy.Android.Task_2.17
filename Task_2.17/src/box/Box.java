@@ -4,9 +4,9 @@ package box;
  * @author Sorokin Aleksei on 25.09.2022
  **/
 public class Box {
-     private double lenght;
-     private double wigth;
-     private double height;
+     protected double lenght;
+     protected double wigth;
+     protected double height;
 
     public double getLenght() {
         return lenght;
@@ -82,5 +82,9 @@ public class Box {
             result = 0; //System.out.println("Current = Another");
         }
         return result;
+    }
+
+    public void ShowInfo() {
+        System.out.println("lenght = " + this.lenght + ", wigth = " + this.wigth + ", height = " + this.height);
     }
 }
