@@ -2,17 +2,24 @@ package test;
 
 import box.Box;
 import box.WeightBox;
+import inheritance.Rectangle;
+import inheritance.Triangle;
 
 /**
  * @author Sorokin Aleksei on $DATE
  **/
 public class Main {
     public static void main(String... args) {
+        Rectangle rect = new Rectangle(10, 10);
+        Triangle triangle = new Triangle(10, 10, 10);
+        rect.showPerimetr();
+        triangle.showPerimetr();
+        /*
         Box box = new Box(10);
         WeightBox weightBox = new WeightBox(10);
         box.showInfo();
         weightBox.showInfo();
-        /*
+
         Cat cat = new Cat();
         Lion lion = new Lion();
         System.out.println(cat.isCanEatPerson());
