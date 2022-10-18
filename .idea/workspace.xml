@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="179f39f4-30aa-4cd9-9cdd-f2509f8a2baa" name="Changes" comment="//">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_2.17/src/box/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/box/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.17/src/box/WeightBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/box/WeightBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.17/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_2.17/box/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_2.17/box/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_2.17/box/WeightBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_2.17/box/WeightBox.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666116165376</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="//">
+      <created>1666116966811</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666116966812</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

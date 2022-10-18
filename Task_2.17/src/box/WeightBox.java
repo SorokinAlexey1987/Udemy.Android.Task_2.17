@@ -23,7 +23,8 @@ public class WeightBox extends Box {
         this.weight = weight;
     }
 
-    public void ShowInfo() {
-        System.out.println("lenght = " + this.lenght + ", wigth = " + this.wigth + ", height = " + this.height + ", weight = " + this.weight);
+    public void showInfo() {
+        super.showInfo();
+        System.out.println("weight = " + this.weight);
     }
 }

@@ -1,21 +1,25 @@
 package test;
-import example.MyMath;
-import example.Person;
-import inheritance.Cat;
-import inheritance.Lion;
+
+import box.Box;
+import box.WeightBox;
 
 /**
  * @author Sorokin Aleksei on $DATE
  **/
 public class Main {
     public static void main(String... args) {
+        Box box = new Box(10);
+        WeightBox weightBox = new WeightBox(10);
+        box.showInfo();
+        weightBox.showInfo();
+        /*
         Cat cat = new Cat();
         Lion lion = new Lion();
         System.out.println(cat.isCanEatPerson());
         System.out.println(lion.isCanEatPerson());
         cat.eat();
         lion.eat();
-        /*
+
         example.Test test = new example.Test();
         System.out.println(test.square(5));
         box.Box box = new box.Box(5,4,3);
