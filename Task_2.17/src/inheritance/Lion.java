@@ -5,4 +5,10 @@ public class Lion extends CatFamily {
         super(4,2,true);
         legs = 5;
     }
+
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println("Antilop");
+    }
 }
