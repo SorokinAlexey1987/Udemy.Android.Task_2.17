@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="179f39f4-30aa-4cd9-9cdd-f2509f8a2baa" name="Changes" comment="//">
-      <change beforePath="$PROJECT_DIR$/Task_2.17/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.17/src/inheritance/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/inheritance/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.17/src/inheritance/CatFamily.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/inheritance/CatFamily.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.17/src/inheritance/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17/src/inheritance/Lion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2Fqtbbj224Y9vEfKaUSPl4hK2Cr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,6 +41,26 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="Task_2.17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665863999074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="//">
+      <created>1665864423597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665864423597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="//">
+      <created>1665864463267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665864463267</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,6 +112,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//" />
