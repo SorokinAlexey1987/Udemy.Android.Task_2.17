@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Triangle extends Shape {
-    private double c;
+    protected double c;
 
     public Triangle(double a, double b, double c) {
         super(a, b);

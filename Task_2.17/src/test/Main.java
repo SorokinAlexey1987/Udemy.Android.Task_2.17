@@ -2,7 +2,9 @@ package test;
 
 import box.Box;
 import box.WeightBox;
+import inheritance.ColoredRect;
 import inheritance.Rectangle;
+import inheritance.Shape;
 import inheritance.Triangle;
 
 /**
@@ -12,8 +14,11 @@ public class Main {
     public static void main(String... args) {
         Rectangle rect = new Rectangle(10, 10);
         Triangle triangle = new Triangle(10, 10, 10);
+        ColoredRect colorrect = new ColoredRect(5, 5, "red");
         rect.showPerimetr();
         triangle.showPerimetr();
+        colorrect.showColor();
+
         /*
         Box box = new Box(10);
         WeightBox weightBox = new WeightBox(10);

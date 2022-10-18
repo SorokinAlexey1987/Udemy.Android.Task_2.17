@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Shape {
+public abstract class Shape {
     protected double a;
     protected double b;
 
@@ -9,9 +9,7 @@ public class Shape {
         this.b = b;
     }
 
-    public double getPerimetr() {
-        return (this.a + this.b);
-    }
+    public abstract double getPerimetr();
 
     public void showPerimetr() {
         System.out.println(getPerimetr());
