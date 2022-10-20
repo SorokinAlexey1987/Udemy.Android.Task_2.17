@@ -8,6 +8,14 @@ public class Main {
         Dog dog = new Dog();
         Bird bird = new Bird();
         Fish fish = new Fish();
+
+        ArrayList<AbleToRun> animals = new ArrayList<>();
+        animals.add(cat);
+        animals.add(dog);
+        for (AbleToRun animal : animals) {
+            animal.run();
+        }
+        /*
         ArrayList<Animal> animals = new ArrayList<>();
         animals.add(cat);
         animals.add(dog);
@@ -16,5 +24,10 @@ public class Main {
         for (Animal animal: animals) {
             animal.eat();
         }
+        Animal animal = new Cat();
+        animal.eat();
+        Dog dog2 = (Dog) animal;
+        dog2.run();
+        */
     }
 }
