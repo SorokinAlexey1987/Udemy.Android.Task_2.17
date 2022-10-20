@@ -21,7 +21,7 @@ public class Main {
         ableToFly.Fly();
 
         AbleToRun ableToRun = new Dog();
-        Dog dog = (Dog) ableToRun;
+        Dog mydog = (Dog) ableToRun;
         /*
         ArrayList<Animal> animals = new ArrayList<>();
         animals.add(cat);
