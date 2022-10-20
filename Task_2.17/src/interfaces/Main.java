@@ -12,9 +12,16 @@ public class Main {
         ArrayList<AbleToRun> animals = new ArrayList<>();
         animals.add(cat);
         animals.add(dog);
+        animals.add(bird);
         for (AbleToRun animal : animals) {
             animal.run();
         }
+
+        AbleToFly ableToFly = new Bird();
+        ableToFly.Fly();
+
+        AbleToRun ableToRun = new Dog();
+        Dog dog = (Dog) ableToRun;
         /*
         ArrayList<Animal> animals = new ArrayList<>();
         animals.add(cat);
