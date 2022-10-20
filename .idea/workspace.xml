@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="179f39f4-30aa-4cd9-9cdd-f2509f8a2baa" name="Changes" comment="//">
-      <change beforePath="$PROJECT_DIR$/Task_2.17/src/interfaces/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="179f39f4-30aa-4cd9-9cdd-f2509f8a2baa" name="Changes" comment="\\" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666299804739</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="\\">
+      <created>1666300234953</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666300234953</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//" />
-    <option name="LAST_COMMIT_MESSAGE" value="//" />
+    <MESSAGE value="\\" />
+    <option name="LAST_COMMIT_MESSAGE" value="\\" />
   </component>
 </project>
