@@ -4,6 +4,28 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        Client client = new Client();
+        WaiterBob waiterBob = new WaiterBob();
+        client.makeOrder(waiterBob, "meat");
+        client.makeOrder(new Waiter() {
+            @Override
+            public void bringOrder(String dish) {
+                System.out.println("I am bring you: " + dish);
+            }
+        }, "soup");
+        /*
+        Director director = new Director();
+        Programmer programmer = new Programmer();
+        director.force(programmer);
+        director.force(new Worker() {
+            @Override
+            public void work() {
+                System.out.println("work");
+            }
+        });
+        */
+
+        /*
         Director director = new Director();
         Programmer programmer = new Programmer();
         Chef chef = new Chef();
@@ -22,6 +44,7 @@ public class Main {
         for (Driver driver: drivers) {
             driver.drive();
         }
+        */
 
         /*
         Cat cat = new Cat();
