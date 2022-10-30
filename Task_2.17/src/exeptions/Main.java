@@ -1,3 +1,4 @@
+
 package exeptions;
 
 public class Main {
@@ -9,9 +10,14 @@ public class Main {
             System.out.println("b = " + b);
             int c = Integer.parseInt("sgfgfge");
         } catch(ArithmeticException e) {
-            System.out.println("Devision by zerro!!");
-        } catch(NumberFormatException n) {
+            System.out.println("Деление на ноль!!");
+        } catch(Exception e) {
+            System.out.println("Поймано исключение " + e.getClass());
+        }
+        /*
+        catch(NumberFormatException n) {
             System.out.println("Format error!");
         }
+        */
     }
 }
