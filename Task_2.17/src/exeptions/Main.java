@@ -22,7 +22,11 @@ public class Main {
             numbers[i] = i;
             System.out.println(numbers[i]);
         }
-        System.out.println(numbers[10]);
+        try {
+            System.out.println(numbers[10]);
+        } catch (Exception e) {
+            System.out.println("Вы вышли за пределы массива!");
+        }
 
 
         /*
