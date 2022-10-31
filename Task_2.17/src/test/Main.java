@@ -12,11 +12,9 @@ import inheritance.Triangle;
  **/
 public class Main {
     public static void main(String... args) {
-        double random = Math.random();
-        random *=6;
-        int randomInt = (int)random;
-        randomInt++;
-        System.out.println(randomInt);
+        double result = (Math.random()*90)+10;
+        System.out.println(String.format("Rendom number = %s", result));
+
         /*
         Rectangle rect = new Rectangle(10, 10);
         Triangle triangle = new Triangle(10, 10, 10);
