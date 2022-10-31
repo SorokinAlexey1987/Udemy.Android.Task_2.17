@@ -90,6 +90,6 @@ public class Box {
 
     @Override
     public String toString() {
-        return "test";
+        return String.format("Lenght = %s\nWigth = %s\nHeight = %s", lenght, wigth, height );
     }
 }
