@@ -87,4 +87,9 @@ public class Box {
     public void showInfo() {
         System.out.println("lenght = " + this.lenght + ", wigth = " + this.wigth + ", height = " + this.height);
     }
+
+    @Override
+    public String toString() {
+        return "test";
+    }
 }

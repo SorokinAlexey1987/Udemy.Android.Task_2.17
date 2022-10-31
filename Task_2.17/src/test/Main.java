@@ -12,19 +12,26 @@ import inheritance.Triangle;
  **/
 public class Main {
     public static void main(String... args) {
+        /*
         Rectangle rect = new Rectangle(10, 10);
         Triangle triangle = new Triangle(10, 10, 10);
         ColoredRect colorrect = new ColoredRect(5, 5, "red");
         rect.showPerimetr();
         triangle.showPerimetr();
         colorrect.showColor();
+        */
 
-        /*
         Box box = new Box(10);
-        WeightBox weightBox = new WeightBox(10);
+        WeightBox weightBox = new WeightBox(10, 20, 30, 15.5);
         box.showInfo();
         weightBox.showInfo();
 
+        System.out.println(box);
+
+        Empty empty = new Empty();
+        System.out.println(empty.toString());
+
+        /*
         Cat cat = new Cat();
         Lion lion = new Lion();
         System.out.println(cat.isCanEatPerson());
