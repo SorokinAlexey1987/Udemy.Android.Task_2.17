@@ -6,8 +6,10 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    for(int i = 0; i < 10; i++){
-                        System.out.println(1);
+                    int i = 0;
+                    while(true) {
+                        System.out.println(i);
+                        i++;
                         Thread.sleep(1000);
                     }
                 } catch (Exception e) {
@@ -16,19 +18,5 @@ public class Main {
             }
         });
         timer.start();
-        Thread timer2 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    for(int i = 0; i < 10; i++){
-                        System.out.println(2);
-                        Thread.sleep(1000);
-                    }
-                } catch (Exception e) {
-
-                }
-            }
-        });
-        timer2.start();
     }
 }
