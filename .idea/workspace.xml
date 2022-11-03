@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="179f39f4-30aa-4cd9-9cdd-f2509f8a2baa" name="Changes" comment="\\">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.17.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.17.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Fqtbbj224Y9vEfKaUSPl4hK2Cr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,36 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/distr/IDE/Idea/junit-4.13.2.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.Main" />
-      <module name="Task_2.17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestCalculator.TestCalc">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exeptions.Main" />
       <module name="Task_2.17" />
@@ -122,13 +113,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCalculator.TestCalc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_2.17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Calculator" />
+      <option name="MAIN_CLASS_NAME" value="Calculator.TestCalculator" />
+      <option name="METHOD_NAME" value="TestCalc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCalculator.TestCalc" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665231513812</updated>
-    </task>
-    <task id="LOCAL-00002" summary="//">
-      <created>1665863999074</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1665863999074</updated>
     </task>
     <task id="LOCAL-00003" summary="//">
       <created>1665864423597</created>
@@ -484,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667413074857</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="\\">
+      <created>1667413614220</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1667413614220</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +504,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//" />
